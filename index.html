@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
     <title>Marco Zero | Turismo.com</title>
 </head>
 <body>
@@ -18,20 +21,21 @@
     </header>
 
     <main>
-        <section>
-            <h2>Conheça a Praça do Marco Zero</h2>
-            <img src="./marco_zero_recife.jpg" alt="Foto colorida da Praça do Marco Zero, Recife." width="1000px">
-            <p><small>(Foto: Trip Advisor)</small></p>
+        <section class="banner">
+            <div class="conteudo_banner">
+                <h2>Conheça a Praça do Marco Zero</h2>
             <p>Parte da região histórica do Recife Antigo, a praça é o local de onde se inicia a medição das distâncias das 
-                estradas do estado</p>
-            <p>O Marco Zero é um dos pontos turísticos mais importantes para quem deseja conhecer a capital de Pernambuco. 
+                estradas do estado.<br>
+            <br>O Marco Zero é um dos pontos turísticos mais importantes para quem deseja conhecer a capital de Pernambuco. 
                 Isso porque é um local de importância histórica que conta o nascimento da cidade e possui forte referência 
-                cultural.</p>
-            <p>Além disso, o local recebe, anualmente, diversas comemorações e manifestações e também é um lugar muito 
+                cultural.<br>
+            <br>Além disso, o local recebe, anualmente, diversas comemorações e manifestações e também é um lugar muito 
                 famoso para quem busca eventos como o Carnaval.</p>
             <p>Saiba mais sobre esse importante local!</p> 
+            <p><small>(Foto: Trip Advisor)</small></p>
+            </div>
         </section>
-        <section>
+        <section class="not_banner">
             <h3>História</h3>
             <p>A praça é conhecida pelo seu nome popular, Praça do Marco Zero, mas na verdade o local se chama 
                 <strong>Praça Barão do Rio Branco</strong>. Está localizada no Bairro do Recife, o Centro Histórico da cidade, 
@@ -50,7 +54,7 @@
                     Alfredo Lisboa, sem número.</p>
                 <p></p>
             </section>
-        <section>
+        <section class="not_banner">
             <h3>Principais pontos turísticos ao redor</h3>
             <div>
                 <h4>Rosa dos Ventos de Cícero Dias</h4>
@@ -82,20 +86,26 @@
                     ida e a volta).</p>
             </div>
         </section>
-        <section>
+        <section class="not_banner">
             <h3>Conheça outros pontos turísticos <a href="./pontos_turisticos.html">aqui</a>.</h3>
         </section>
     </main>
 
-    <footer>
-        <h5>Turismo.com</h5>
-        <p><small>Siga-nos:</small></p>
-        <ul>
-            <li><small>Facebook</small></li>
-            <li><small>Instagram</small></li>
-            <li><small>Twitter</small></li>
-        </ul>
-        <p><small>Desenvolvido por Jadi Barros Heliodoro.</small></p>
+    <footer class="not_banner">
+        <div>
+            <h5>Turismo.com</h5>
+            <p>
+                <small>Desenvolvido por Jadi Barros Heliodoro.</small>
+            </p>
+        </div>
+        <div class="siga_nos">
+            <p><small>Siga-nos:</small></p>
+            <ul>
+                <li><small>Facebook</small></li>
+                <li><small>Instagram</small></li>
+                <li><small>Twitter</small></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
